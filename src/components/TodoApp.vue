@@ -47,6 +47,7 @@
             </tr>
         </tbody>
     </table>
+</div>
 </template>
 
 <script>
@@ -111,5 +112,9 @@ export default {
     }
     .done{
         text-decoration:line-through;
+    }
+    .container{
+         background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+         min-height: 80vh;
     }
 </style>
